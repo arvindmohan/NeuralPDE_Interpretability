@@ -1,0 +1,4 @@
+1. To train model, run Julia code Expt1.jl. Caution: This may take several hours (~12-16 hours) on a laptop.  The output of the code will be the trained checkpoint ```ckpt_expt1.jld2``` which is already placed in the dir for your convenience.
+2. To perform inference with the trained model run ```analyze_expt1.ipynb``` Jupyter notebook with Julia. It will plot various figures in the paper, and more general analysis plots for inference. 
+3. We now compute Jacobians for further analysis, from both the ground truth and the learned model. Run ```jacobians_analysis_expt1.ipynb``` Jupyter notebook with Julia. It will compute Jacobians and save to disk as "jacobian_gKdV_caseA_dict.npz" for the next analysis. Will also perform some basic diagnostics and print to screen.
+4. The Jacobians are now loaded from disk and analyzed with Python Jupyter notebook ```gKdV_Eigenanalysis_paper.ipynb```.
