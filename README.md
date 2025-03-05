@@ -8,20 +8,23 @@ This repo provides the codes to train, perform inference on trained models, and 
 ###Please note### The training codes here were deployed on HPC and took a few hours, so it will take many hours on a laptop.
 
 
-Burgers:
+#Burgers:
+
 A single README.md file inside that dir provides instructions. The inference datasets are too big to include in this repo, so they can 
 be found in this FigShare link: https://figshare.com/s/854d5dc6a515ac1ce5ba
 Download them and place them in the appropriate folder (Expt 1 or Expt 2) and the codes should work out of the box.
 
-gKdV:
+#gKdV:
+
 There is a README.md file inside each dir (Expt1 and Expt2) with detailed instructions on how to run the codes.
 
 
-Software Install:
+#Software Install:
+
 The repo uses Julia language and Python.
 The following are the packages in my Julia environment. Please install the same versions to guarantee reproducibility.
 This has been tested on both Mac and Unix OS.
-Install time: Around 1.5 hours for a fresh Julia installation. 
+Install time: Around 1.5 hours for a fresh Julia v1.9 installation. 
 ```
 (@v1.9) pkg> st
 Status `~/.julia/environments/v1.9/Project.toml`
