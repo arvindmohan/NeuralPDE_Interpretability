@@ -1,15 +1,21 @@
 Welcome!
 
-This paper investigates two cases: Burgers equation and gKdV. Each equation has 2 experiments.
+This is a companion repo for the paper What You See is Not What You Get: Neural Partial Differential Equations and The Illusion of Learning: https://arxiv.org/abs/2411.15101
+which has been submitted for peer review.
+The paper investigates two cases: Burgers equation and gKdV. Each equation has 2 experiments.
 This repo provides the codes to train, perform inference on trained models, and perform plotting + analysis of the results.
 
+###Please note### The training codes here were deployed on HPC and took a few hours, so it will take many hours on a laptop.
+
+
 Burgers:
-A single README.md file inside that dir provides instructions.
+A single README.md file inside that dir provides instructions. The inference datasets are too big to include in this repo, so they can 
+be found in this FigShare link: https://figshare.com/s/854d5dc6a515ac1ce5ba
+Download them and place them in the appropriate folder (Expt 1 or Expt 2) and the codes should work out of the box.
 
 gKdV:
 There is a README.md file inside each dir (Expt1 and Expt2) with detailed instructions on how to run the codes.
 
-Please note that the training codes here were deployed on HPC and took a few hours, so it will take many hours on a laptop.
 
 Software Install:
 The repo uses Julia language and Python.
